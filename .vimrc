@@ -105,3 +105,16 @@ set incsearch " instant move to search query when typing
 set ic " ignore case during search
 set ts=2 "set tabstop to 2 characters
 nmap gD :action GotoImplementation<CR> "for IdeaVIM
+
+set scrolloff=3         " keep 3 lines when scrolling
+set ai                  " set auto-indenting on for programming
+
+set showcmd             " display incomplete commands
+set nobackup            " do not keep a backup file
+
+set showmatch           " jump to matches when entering regexp
+set smartcase           " no ignorecase if Uppercase char present
+
+set visualbell t_vb=    " turn off error beep/flash
+set novisualbell        " turn off visual bell
+
